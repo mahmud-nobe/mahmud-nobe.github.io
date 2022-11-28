@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation by Mahmud</title>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+        />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href='style.css'/>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid ms-3 ms-sm-0">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarCenteredExample"
+            aria-controls="navbarCenteredExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse me-auto mb-2 mb-lg-0" id="navbarCenteredExample">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+              <a class="nav-link" 
+                href="#projects">Projects</a>
+              <a class="nav-link" href="#simulation">Simulation</a>
+              <a class="nav-link" href="#">Experience</a>
+            </div> 
+          </div>
+
+          <a class="navbar-brand" href="https://www.linkedin.com/in/md-mahmudunnobe-851bb0173/" rel="nofollow" target="_blank">
+            <i class="fab fa-linkedin-in"></i></a>
+          <a class="navbar-brand" href="https://github.com/mahmud-nobe/" rel="nofollow" target="_blank">
+            <i class="fab fa-github"></i></a>
+          <a class="navbar-brand" href="https://m.me/rus.mahmudunnobe" rel="nofollow" target="_blank">
+            <i class="fab fa-facebook-messenger"></i></a>
+          <a class="navbar-brand" href="https://mail.google.com/mail/?view=cm&fs=1&to=mahmud.nobe@uni.minerva.edu" rel="nofollow" target="_blank">
+            <i class="fa fa-envelope"></i></a>
+        </div>
+    </nav>
+    
+
+    <section id="about">
+      <!-- Background image -->
+      <div id="intro" class="bg-image shadow-2-strong"
+           style="background-image: url(https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9);
+                  height: 100vh;">
+        <div class="mask rgba-black-light">
+          <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3 font-weight-bold text-uppercase">Welcome to my page</h1>
+              <h5 class="mb-4">Hi I am Mahmud!<br>You can find my work below</h5>
+              <a class="btn btn-outline-light btn-lg m-2" href="https://mahmud-nobe.github.io/Physics_Simulation_Tutorial" role="button"
+                rel="nofollow" target="_blank">Simulation</a>
+              <a class="btn btn-outline-light btn-lg m-2" href="https://mahmud-nobe.github.io/Projects" target="_blank"
+                role="button">Projects</a>
+              <a class="btn btn-outline-light btn-lg m-2" href="https://mahmud-nobe.github.io/Physics_Simulation_Tutorial" target="_blank"
+                role="button">Research</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </section>
+  </header>
+  <!--Main Navigation-->
+  
+
+  <section id="projects">
+    <!-- Jumbotron -->
+    <div class = 'jumbotron text-center'>
+      <h1 class="display-4">Projects</h1>
+    </div>
+    <!-- Carousel wrapper start -->
+    <div
+    id="carousel_1"
+    class="carousel slide carousel-dark text-center"
+    data-mdb-ride="carousel"
+    data-mdb-interval=5000
+    >
+    <!-- Controls -->
+    <div class="d-flex justify-content-center mb-4">
+      <button
+        class="carousel-control-prev position-relative"
+        type="button"
+        data-mdb-target="#carousel_1"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next position-relative"
+        type="button"
+        data-mdb-target="#carousel_1"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Inner start-->
+<div class="carousel-inner py-4">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <div class="bg-image hover-zoom">
+              <!-- <video class="card-img-top" src="fluid_dynamics/one_lid_Re_400_upto_t=7.mp4" autoplay loop muted></video> -->
+              <img
+                src="NLP_Emotion_Analysis/Emotion_NLP.PNG"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">NLP: Emotion Analysis</h5>
+              <p class="card-text">
+                Trained an NLP BERT model to classify text into six types of emotions with 93% test accuracy.
+              </p>
+              
+            </div>
+            <div class="card-footer">
+              <a href="NLP_Emotion_Analysis/NLP_Emotion_Analysis.pdf"
+                 class="btn btn-primary"
+                 target="_blank">Paper</a>
+              <a href="https://nbviewer.org/github/mahmud-nobe/Projects/blob/main/NLP_Emotion_Analysis/Emotion_NLP.ipynb"
+                 class="btn btn-primary"
+                 target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <div class="bg-image hover-zoom">
+              <!-- <video class="card-img-top" src="spring-mass/position_time_plot_smaller.mp4" autoplay loop muted></video> -->
+              <img
+                src="CO2_Modeling/CO2_prediction.png"
+                class="card-img-top"
+                alt="Storm Clouds"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">CO<sub>2</sub> Modeling</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              
+            </div>
+            <div class="card-footer">
+              <a href="CO2_Modeling/CO2_Modeling.pdf"
+                 class="btn btn-primary"
+                 target="_blank">Paper</a>
+              <a href="https://nbviewer.org/github/mahmud-nobe/Projects/blob/main/CO2_Modeling/CO2_Modeling.ipynb"
+                 class="btn btn-primary"
+                 target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <div class="bg-image hover-zoom">
+              <!-- <video class="card-img-top" src="Traffic_Light/traffic_lba.mp4" autoplay loop muted></video> -->
+              <img
+                src="Causal_Inference/replication_all_state.png"
+                class="card-img-top"
+                alt="Hot Air Balloons"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Causal Inference</h5>
+              <p class="card-text">
+                Replicated a paper on ‘how women’s power affects the crime reports’ using Synthetic Control.
+              </p>
+              
+            </div>
+            <div class="card-footer">
+              <a href="Causal_Inference/Causal_Inference.pdf" class="btn btn-primary" target="_blank">Paper</a>
+              <a href="https://nbviewer.org/github/mahmud-nobe/Projects/blob/main/Causal_Inference/Causal_Inference.ipynb"
+                 class="btn btn-primary"
+                 target="_blank">Code</a>
+              <a href="https://github.com/mahmud-nobe/CS112-Final-Project"
+                 class="btn text-white"
+                 style="background-color: #333333;"
+                 target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+              <div class="bg-image hover-zoom">
+                <!-- <video class="card-img-top" src="Lorentz_Attractor/lorenz_attractor_r=28_fast.mp4" autoplay loop muted></video> -->
+                <img
+                  src="Plagiarism_Detector/complexity_rolling_hash.PNG"
+                  class="card-img-top"
+                  alt="Peaks Against the Starry Sky"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Plagiarism Detector</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                
+              </div>
+              <div class="card-footer">
+                <a href="Plagiarism_Detector/Plagiarism_Detector.pdf"
+                   class="btn btn-primary"
+                   target="_blank">Paper</a>
+                <a href="https://nbviewer.org/github/mahmud-nobe/Projects/blob/main/Plagiarism_Detector/Plagiarism_Detector.ipynb"
+                   class="btn btn-primary"
+                   target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+              <div class="bg-image hover-zoom">
+                <img
+                  src="Gene_Mutation/relative_lcs_heatmap_between_gene_strings.png"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Gene Mutation</h5>
+                <p class="card-text">
+                  Designed an algorithm to draw a genealogical tree based on the similarities of the given gene strings
+                </p>
+                
+              </div>
+              <div class="card-footer">
+                <a href="https://nbviewer.org/github/mahmud-nobe/Projects/blob/main/Gene_Mutation/Gene_Mutation.ipynb" 
+                   class="btn btn-primary" 
+                   target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+              <div class="bg-image hover-zoom">
+                <img
+                  src="Star_Cluster_Membership/precision_all_models_barplot.png"
+                  class="card-img-top"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Star Cluster Membership</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                
+              </div>
+              <div class="card-footer">
+                <a href="Star_Cluster_Membership/CS156_Final_Assignment.pdf" 
+                   class="btn btn-primary" 
+                   target="_blank">Paper</a>
+                <a href="https://nbviewer.org/github/mahmud-nobe/Projects/blob/main/Star_Cluster_Membership/Star_Cluster_Membership.ipynb"
+                   class="btn btn-primary"
+                   target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+ 
+</div>
+<!-- Inner end -->
+    <!-- Indicators -->
+    <div class="d-flex justify-content-center my-4">
+      <ul class="carousel-indicators">
+        <li
+          data-mdb-target="#carousel_1"
+          data-mdb-slide-to="0"
+          class="active"></li>
+        <li
+          data-mdb-target="#carousel_1"
+          data-mdb-slide-to="1"
+          ></li>
+        <!-- <li
+          data-mdb-target="#carousel_1"
+          data-mdb-slide-to="2"
+          ></li> -->
+      </ul>
+    </div>
+    </div>
+    <!-- Carousel wrapper end -->
+  </section>
+
+  <section id="simulation">
+    <!-- Jumbotron -->
+    <div class = 'jumbotron text-center'>
+      <h1 class="display-4">Simulation</h1>
+    </div>
+    <!-- Carousel wrapper start -->
+    <div
+    id="carousel_2"
+    class="carousel slide carousel-dark text-center"
+    data-mdb-ride="carousel"
+    data-mdb-interval=5000
+    >
+    <!-- Controls -->
+    <div class="d-flex justify-content-center mb-4">
+      <button
+        class="carousel-control-prev position-relative"
+        type="button"
+        data-mdb-target="#carousel_2"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next position-relative"
+        type="button"
+        data-mdb-target="#carousel_2"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Inner start-->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card card-1 h-100">
+                <div class="bg-image hover-zoom">
+                  <video class="card-img-top" src="pendulum/chaos_double_pendulum.mp4" autoplay loop muted></video>
+                </div>
+                <!--<img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                  class="card-img-top"
+                  alt="Waterfall"
+                />-->
+                <div class="card-body">
+                  <h5 class="card-title">Double Pendulum</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/pendulum/Double_pendulum.ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card card-2 h-100">
+                <div class="bg-image hover-zoom">
+                  <video class="card-img-top" src="N_body_simulation/trinary_star_orbit.mp4" autoplay loop muted></video>
+                </div>
+                  <!-- <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                  class="card-img-top"
+                  alt="Sunset Over the Sea"
+                /> -->
+                <div class="card-body">
+                  <h5 class="card-title">Trinary System</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/N_body_simulation/Assignment_Part_1_N-body_Simulation.ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card card-3 h-100">
+                <div class="bg-image hover-zoom">
+                  <video class="card-img-top" src="wave_equation/square_pulse_1d.mp4" autoplay loop muted></video>
+                </div>
+                  <!-- <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+                  class="card-img-top"
+                  alt="Sunset over the Sea"
+                /> -->
+                <div class="card-body">
+                  <h5 class="card-title">Square Pulse Wave</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/wave_equation/Wave_Equation_Final_Project.ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="bg-image hover-zoom">
+                  <video class="card-img-top" src="fluid_dynamics/one_lid_Re_400_upto_t=7.mp4" autoplay loop muted></video>
+                </div>
+                <!-- <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                  class="card-img-top"
+                  alt="Fissure in Sandstone"
+                /> -->
+                <div class="card-body">
+                  <h5 class="card-title">CFD: Lid Driven Cavity</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/fluid_dynamics/Assignment_3_CFD (1).ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="bg-image hover-zoom">
+                  <video class="card-img-top" src="spring-mass/position_time_plot_smaller.mp4" autoplay loop muted></video>
+                </div>
+                <!-- <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+                  class="card-img-top"
+                  alt="Storm Clouds"
+                /> -->
+                <div class="card-body">
+                  <h5 class="card-title">Spring with Damping</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/spring-mass/Assignment_Part_3__Spring-Mass_System.ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="bg-image hover-zoom">
+                  <video class="card-img-top" src="Traffic_Light/traffic_lba.mp4" autoplay loop muted></video>
+                </div>
+                <!-- <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+                  class="card-img-top"
+                  alt="Hot Air Balloons"
+                /> -->
+                <div class="card-body">
+                  <h5 class="card-title">Traffic Light</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="Traffic_Light/CS166 LBA (1).pdf?download=false" class="btn btn-primary" target="_blank">Paper</a>
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/Traffic_Light/Copy_of_CS166_LBA (1).ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="bg-image hover-zoom">
+                  <video class="card-img-top" src="Lorentz_Attractor/lorenz_attractor_r=28_fast.mp4" autoplay loop muted></video>
+                </div>
+                <!-- <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
+                  class="card-img-top"
+                  alt="Peaks Against the Starry Sky"
+                /> -->
+                <div class="card-body">
+                  <h5 class="card-title">Lorentz (Strange) Attractor</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/Lorentz_Attractor/Lorentz_Attractor.ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="bg-image hover-zoom">
+                  <img
+                    src="Grocery_Store_Queue/avg_waiting_time_for_different_n_cashiers.png"
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Grocery Store Queue</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="Grocery_Store_Queue/CS166 First Project (3).pdf" class="btn btn-primary" target="_blank">Paper</a>
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/Grocery_Store_Queue/CS166_first_project (3).ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="bg-image hover-zoom">
+                  <img
+                    src="system_of_stars/mean_star_distance.png"
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Exploding Star Cluster</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </p>
+    
+                </div>
+                <div class="card-footer">
+                  <a href="system_of_stars/CS166 Final Project.pdf" class="btn btn-primary" target="_blank">Paper</a>
+                  <a href="https://nbviewer.org/github/mahmud-nobe/Physics_Simulation_Tutorial/blob/main/system_of_stars/CS166_Final_Project_Final.ipynb"
+                    class="btn btn-primary"
+                    target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner end -->
+    <!-- Indicators -->
+    <div class="d-flex justify-content-center my-4">
+      <ul class="carousel-indicators">
+        <li
+          data-mdb-target="#carousel_2"
+          data-mdb-slide-to="0"
+          class="active"></li>
+        <li
+          data-mdb-target="#carousel_2"
+          data-mdb-slide-to="1"
+          ></li>
+        <li
+          data-mdb-target="#carousel_2"
+          data-mdb-slide-to="2"
+          ></li>
+      </ul>
+    </div>
+    </div>
+    <!-- Carousel wrapper end -->
+  </section>
+
+<!-- Footer -->
+<footer class="text-center text-white"
+        style="background-color: rgba(63, 62, 62, 0.2);">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section id='footer' class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn text-white"
+        style="background-color: #3b5998;"
+        href="https://m.me/rus.mahmudunnobe"
+        role="button"
+        target="_blank"
+        ><i class="fab fa-facebook-messenger"></i
+      ></a>
+      
+      <!-- Google -->
+      <a class="btn text-white" 
+         style="background-color: #dd4b39;" 
+         href="https://mail.google.com/mail/?view=cm&fs=1&to=mahmud.nobe@uni.minerva.edu" 
+         role="button"
+         target="_blank">
+        <i class="fab fa-google"></i>
+      </a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white"
+        style="background-color: #0082ca;"
+        href="https://www.linkedin.com/in/md-mahmudunnobe-851bb0173/"
+        role="button"
+        target="_blank"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a
+        class="btn text-white"
+        style="background-color: #333333;"
+        href="https://github.com/mahmud-nobe/"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Mahmud © 2022 
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"
+></script>
+<!-- D3 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<!-- My JS -->
+<script
+  type="text/javascript"
+  src="script.js"
+></script>
+
+</body>
+  
+</html>
+  
