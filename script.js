@@ -10,7 +10,7 @@ window.addEventListener('resize', function() {
         carousel.attr("data-mdb-interval", 10000)
     }
     else {
-        carousel.attr("data-mdb-interval", 5000)
+        carousel.attr("data-mdb-interval", 3000)
     }
     //console.log(carousel.attr('data-mdb-interval'));
 })
